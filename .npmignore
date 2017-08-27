@@ -10,3 +10,7 @@ protoculture.png
 Dockerfile
 docker-compose.yml
 .vscode
+
+# Presence of this file in the package seems to be causing the following error, not sure why/how:
+#   "Module build failed: Error: Debug Failure. False expression: Output generation failed"
+gatsby-browser.d.ts
