@@ -11,7 +11,7 @@ This plugin adds support for the conventions found in the [Protoculture](https:/
 
 ## Usage
 
-ToDo: Blabla, something about `gatsby-src` to resolve project files at runtime from a plugin.
+Set up `gatsby-src` as a local module pointing to your project directory to resolve project files at runtime from a plugin.
 
 ## Meta
 
