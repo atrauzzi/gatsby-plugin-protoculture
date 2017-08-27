@@ -11,7 +11,6 @@ This plugin adds support for the conventions found in the [Protoculture](https:/
 
 ## Usage
 
-
 ### Configure a Local Package
 Set up `gatsby-src` as a [local package](https://docs.npmjs.com/files/package.json#local-paths), pointing to your project directory so webpack can help this plugin find your application directory and its sources.
 
