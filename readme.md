@@ -11,8 +11,24 @@ This plugin adds support for the conventions found in the [Protoculture](https:/
 
 ## Usage
 
-Set up `gatsby-src` as a [local package](https://docs.npmjs.com/files/package.json#local-paths), pointing to your project directory so webpack can help this plugin can find your application directory and its sources.  This is also helpful if you are using TypeScript for your project as it's not possible at the moment to reference TypeScript code from `gatsby-config.js`.
 
+### Configure a Local Package
+Set up `gatsby-src` as a [local package](https://docs.npmjs.com/files/package.json#local-paths), pointing to your project directory so webpack can help this plugin can find your application directory and its sources.
+
+It'll look something like this in your `package.json`:
+```
+{
+    ...
+    "dependencies": {
+        "gatsby-src": "file:./src",
+    },
+    ...
+}
+```
+
+This is also helpful if you are using TypeScript for your project as it's not possible at the moment to reference TypeScript code from `gatsby-config.js` or make it a `.ts` file.
+
+### Create a Bundle
 After setting up the local package, in your project, create and configure a subclass of `Bundle` which serves as the root application for protoculture.
 
 All functionality of [protoculture-react](https://github.com/atrauzzi/protoculture-react) is now available to you, including [react-redux](https://github.com/reactjs/react-redux), [redux-thunk](https://github.com/gaearon/redux-thunk), as well as the ability to set up your redux store via dependency injection.
