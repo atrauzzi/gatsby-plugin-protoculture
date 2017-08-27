@@ -1,0 +1,11 @@
+.git
+.gitignore
+.travis.yml
+*.log
+.idea
+node_modules
+tsconfig.json
+yarn.lock
+protoculture.png
+Dockerfile
+docker-compose.yml

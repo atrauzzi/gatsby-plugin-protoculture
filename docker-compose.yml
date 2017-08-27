@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+
+  cli:
+    image: protoculture/tooling
+    container_name: protoculture-cli
+
+    volumes:
+      - "./:/protoculture"

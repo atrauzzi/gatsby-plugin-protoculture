@@ -1,0 +1,26 @@
+sudo: required
+
+node_js:
+  - "7"
+  - "6"
+  - "4"
+
+services:
+  - docker
+
+cache:
+  directories:
+    - node_modules
+
+install:
+  - docker-compose run --rm cli yarn install
+
+script:
+  - docker-compose run --rm cli yarn build
+
+after_success:
+  - npm run semantic-release
+
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/

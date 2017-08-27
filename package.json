@@ -1,0 +1,37 @@
+{
+  "name": "gatsby-plugin-protoculture",
+  "author": "Alexander Trauzzi <atrauzzi@gmail.com>",
+  "version": "0.0.0-development",
+  "license": "Apache-2.0",
+  "description": "Add support for Protoculture conventions to your Gatsby project.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "build": "tsc",
+    "demo": "ts-node --no-cache ./demo/console/console.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atrauzzi/gatsby-plugin-protoculture.git"
+  },
+  "keywords": [
+    "typescript",
+    "dependency-injection",
+    "inversify",
+    "protoculture",
+    "gatsby"
+  ],
+  "bugs": {
+    "url": "https://github.com/atrauzzi/gatsby-plugin-protoculture/issues"
+  },
+  "homepage": "https://github.com/atrauzzi/gatsby-plugin-protoculture#readme",
+  "devDependencies": {
+    "semantic-release": "^6.3.2"
+  },
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "dependencies": {
+    "protoculture": "^2.0.75",
+    "protoculture-react": "^1.0.9"
+  }
+}
