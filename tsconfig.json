@@ -15,7 +15,7 @@
         "preserveConstEnums": true,
         "suppressImplicitAnyIndexErrors": true,
         "sourceMap": true,
-        "outDir": "lib",
+        "outDir": "src",
         "skipLibCheck": true,
         "lib": [
             "esnext",

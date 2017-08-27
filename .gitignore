@@ -3,3 +3,6 @@
 /lib
 node_modules
 /demo/**/lib
+src/*.js
+src/*.d.ts
+src/*.map
