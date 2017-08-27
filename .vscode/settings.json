@@ -13,6 +13,9 @@
         "lib": true,
         "public/lib": true,
         "yarn.lock": true,
-        "protoculture.png": true
+        "protoculture.png": true,
+        "*.js": true,
+        "*.js.map": true,
+        "*.d.ts": true
     }
 }

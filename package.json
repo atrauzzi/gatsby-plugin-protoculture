@@ -29,7 +29,7 @@
   "devDependencies": {
     "semantic-release": "^7.0.2"
   },
-  "main": "./lib/index.js",
+  "main": "./index.js",
   "types": "./lib/index.d.ts",
   "dependencies": {
     "protoculture": "^2.0.75",
