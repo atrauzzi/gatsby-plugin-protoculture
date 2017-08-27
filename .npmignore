@@ -9,3 +9,4 @@ yarn.lock
 protoculture.png
 Dockerfile
 docker-compose.yml
+.vscode
