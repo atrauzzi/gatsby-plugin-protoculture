@@ -19,7 +19,8 @@
     "dependency-injection",
     "inversify",
     "protoculture",
-    "gatsby"
+    "gatsby",
+    "gastsby-plugin"
   ],
   "bugs": {
     "url": "https://github.com/atrauzzi/gatsby-plugin-protoculture/issues"
