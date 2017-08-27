@@ -29,11 +29,13 @@ It'll look something like this in your `package.json`:
 This is also helpful if you are using TypeScript for your project as it's not possible at the moment to reference TypeScript code from `gatsby-config.js` or make it a `.ts` file.
 
 ### Create a Bundle
-After setting up the local package, in your project, create and configure a subclass of `Bundle` which serves as the root application for protoculture.
+After setting up the local package, in your project, create and configure a subclass of `Bundle` which serves as the root entrypoint for protoculture.
 
 All functionality of [protoculture-react](https://github.com/atrauzzi/protoculture-react) is now available to you, including [react-redux](https://github.com/reactjs/react-redux), [redux-thunk](https://github.com/gaearon/redux-thunk), as well as the ability to set up your redux store via dependency injection.
 
-It's worth noting that I'll be looking at enabling gaining access to dependency injection for your react components in the near future.  You can track that progress in [protoculture-react](https://github.com/atrauzzi/protoculture-react) itself.
+Please remember that unlike normal protoculture applications, Gatsby remains the proper entrypoint for browser code.  This means that other polyfills and modules may have been loaded prior to your `Bundle` subclass.
+
+It's also worth noting that I'll be looking at enabling gaining access to dependency injection for your react components in the near future.  You can track that progress in [protoculture-react](https://github.com/atrauzzi/protoculture-react) itself.
 
 
 ## Meta
