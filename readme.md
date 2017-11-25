@@ -9,6 +9,8 @@
 
 This plugin adds support for the conventions found in the [Protoculture](https://github.com/atrauzzi/protoculture) JS library to any Gatsby project.
 
+You can also find the `Dockerfile` for working with protoculture and gatsbyjs here.
+
 ## Usage
 
 ### Configure a Local Package
