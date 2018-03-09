@@ -20,7 +20,7 @@
     "inversify",
     "protoculture",
     "gatsby",
-    "gastsby-plugin"
+    "gatsby-plugin"
   ],
   "bugs": {
     "url": "https://github.com/atrauzzi/gatsby-plugin-protoculture/issues"
